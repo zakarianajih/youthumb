@@ -37,10 +37,10 @@ const Index = () => {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8" style={{ width: '42%' }}>
         <h1 className="text-3xl font-bold mb-2">
-        Free YouTube Thumbnail Downloader
+          Free YouTube Thumbnail Downloader
         </h1>
         <p className="text-gray-600">
-        Free YouTube Thumbnail Downloader - Instantly grab high-quality thumbnail images. Paste the video's thumbnail URL, and click 'Download Thumbnails' to get started.
+          Free YouTube Thumbnail Downloader - Instantly grab high-quality thumbnail images. Paste the video's thumbnail URL, and click 'Download Thumbnails' to get started.
         </p>
       </header>
       <div className="text-center">
@@ -76,6 +76,35 @@ const Index = () => {
           </div>
         </div>
       )}
+      {/* SEO-Friendly Paragraphs */}
+      <div className="mt-8">
+        <h2 className="text-xl font-semibold mb-4">About YouTube Thumbnails</h2>
+        <p>
+          YouTube thumbnails are essential visual elements that provide viewers with a sneak peek of your video's content. They play a crucial role in attracting clicks and engagement.
+        </p>
+        <p>
+          On this YouTube Thumbnail Downloader website, you can easily extract high-quality thumbnails from any YouTube video. These thumbnails can be used for various purposes, including presentations, animations, and more.
+        </p>
+        <h2 className="text-xl font-semibold mb-4">How to Use this Tool</h2>
+        <p>
+          Using this tool is simple. Copy the URL of the YouTube video for which you want to download the thumbnail. Paste the URL in the input box, and our system will generate different thumbnail options for you in various resolutions.
+        </p>
+        <p>
+          After generating the thumbnails, you can click on the "Copy Image URL" button to easily copy the URL to your clipboard for further use.
+        </p>
+        <h2 className="text-xl font-semibold mb-4">Legal Considerations</h2>
+        <p>
+          It's important to note that while it is legal to download YouTube video thumbnails, both thumbnails and videos are copyrighted materials. If you plan to reuse them, especially for commercial purposes, you should seek proper permissions from the original content creator.
+        </p>
+        <h2 className="text-xl font-semibold mb-4">Compatibility</h2>
+        <p>
+          This YouTube Thumbnail Downloader website is compatible with most devices, including Android phones and desktop systems. However, please note that iPhones do not allow image downloads directly. Jailbroken iPhones might provide a workaround for this limitation.
+        </p>
+        <h2 className="text-xl font-semibold mb-4">SEO Considerations</h2>
+        <p>
+          Reusing YouTube thumbnails may not be the most SEO-friendly practice. Google indexes most thumbnails on YouTube, making it important to differentiate your thumbnail if you plan to use it for SEO purposes. Consider adding unique effects using software like Photoshop to enhance its uniqueness.
+        </p>
+      </div>
     </div>
   );
 };
