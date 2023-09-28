@@ -35,15 +35,13 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="text-center mb-8">
-      <div className="container">
-  <h1 className="text-3xl font-bold mb-2 centered">
-    Free YouTube Thumbnail Downloader
-  </h1>
-  <p className="text-gray-600 centered">
-    Free YouTube Thumbnail Downloader - Instantly grab high-quality thumbnail images. Paste the video's thumbnail URL, and click 'Download Thumbnails' to get started.
-  </p>
-</div>
+      <header className="text-center mb-8" style={{ width: '42%' }}>
+        <h1 className="text-3xl font-bold mb-2">
+        Free YouTube Thumbnail Downloader
+        </h1>
+        <p className="text-gray-600">
+        Free YouTube Thumbnail Downloader - Instantly grab high-quality thumbnail images. Paste the video's thumbnail URL, and click 'Download Thumbnails' to get started.
+        </p>
       </header>
       <div className="text-center">
         <input
