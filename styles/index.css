@@ -105,7 +105,7 @@ input[type="text"] + button {
 
 .text-gray-6022 {
   text-align: center; /* Center-align text */
-  font-weight: 600; /* Set font weight (you can adjust the value) */
+  font-weight: 400; /* Set font weight (you can adjust the value) */
   max-width: 600px; /* Set maximum width (you can adjust the value) */
   margin: 0 auto; /* Center the paragraph horizontally */
   width: 100%;
