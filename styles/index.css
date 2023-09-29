@@ -1,3 +1,27 @@
+/* Add this CSS to your index.css file */
+.thumbnail-option {
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: #2980b9;
+}
+
+/* Additional styles for the SEO-friendly paragraphs */
+.container p {
+  margin-bottom: 16px;
+}
+
+
 /* This is where the default styles for your application can be defined */
 
 /* Set the base font and background color for the entire app */
@@ -76,4 +100,13 @@ input[type="text"] + button {
 
 .thumbnail-option button:hover {
   background-color: #2680c5;
+}
+
+
+.text-gray-6022 {
+  text-align: center; /* Center-align text */
+  font-weight: 600; /* Set font weight (you can adjust the value) */
+  max-width: 600px; /* Set maximum width (you can adjust the value) */
+  margin: 0 auto; /* Center the paragraph horizontally */
+  width: 100%;
 }
