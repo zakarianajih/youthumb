@@ -77,8 +77,8 @@ const Index = () => {
         </div>
       )}
       {/* SEO-Friendly Paragraphs */}
-      <div className="mt-8">
-  <h2 className="text-xl font-semibold mb-4" style={{ width: '42%' }}>
+      <div className="mt-8" style={{ width: '42%' }}>
+  <h2 className="text-xl font-semibold mb-4">
     About YouTube Thumbnails
   </h2>
   <p>
