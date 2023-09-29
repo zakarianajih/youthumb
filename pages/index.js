@@ -36,10 +36,10 @@ const Index = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8" style={{ width: '42%' }}>
-        <h1 className="title-website">
+        <h1 className="title-webites">
           Free YouTube Thumbnail Downloader
         </h1>
-        <p className="text-gray-6022">
+        <p className="paragraph11">
           Free YouTube Thumbnail Downloader - Instantly grab high-quality thumbnail images. Paste the video's thumbnail URL, and click 'Download Thumbnails' to get started.
         </p>
       </header>
