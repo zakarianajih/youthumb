@@ -146,6 +146,13 @@ padding: 24px;
   padding-right: 6px;
   
   }
+
+
+
+
+
+
+
   .heading {
       font-size: 20px;
   }
@@ -175,4 +182,20 @@ padding: 24px;
   .paragraph {
       font-size: 15px;
   }
+
+  
+.title-website {
+  text-align: center; /* Center-align text */
+  font-weight: 800; /* Set font weight (you can adjust the value) */
+  
+  margin: 0 auto; /* Center the paragraph horizontally */
+  width: 100%;
+}
+.paragraph11 {
+  font-size: 15px;
+  width: 100%; /* Change to 100% to make it fluid */ 
+  padding-right: 6px;
+}
+
+
 }
