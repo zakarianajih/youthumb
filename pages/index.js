@@ -35,11 +35,11 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <header>
+      
         <h1 className="title-webites">
           Free YouTube Thumbnail Downloader
         </h1>
-        </header>
+      
         <p className="paragraph11">
           Free YouTube Thumbnail Downloader - Instantly grab high-quality thumbnail images. Paste the video's thumbnail URL, and click 'Download Thumbnails' to get started.
         </p>
