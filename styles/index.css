@@ -151,7 +151,7 @@ padding: 24px;
   }
 }.subheading1 {
   font-size: 23px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
   .subheading {
@@ -170,6 +170,7 @@ padding: 24px;
   }
   .subheading {
       font-size: 19px;
+      font-weight: 700;
   }
   .paragraph {
       font-size: 15px;
