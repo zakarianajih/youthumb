@@ -109,7 +109,7 @@ input[type="text"] + button {
 .title-website {
   text-align: center; /* Center-align text */
   font-weight: 800; /* Set font weight (you can adjust the value) */
-  
+ 
   margin: 0 auto; /* Center the paragraph horizontally */
   width: 100%;
 }
