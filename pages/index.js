@@ -35,7 +35,7 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="text-center mb-8" >
+      <header>
         <h1 className="title-webites">
           Free YouTube Thumbnail Downloader
         </h1>
