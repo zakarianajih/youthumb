@@ -188,7 +188,7 @@ padding: 24px;
 .title-website {
   text-align: center; /* Center-align text */
   font-weight: 800; /* Set font weight (you can adjust the value) */
-  
+  text-align: center;
   margin: 0 auto; /* Center the paragraph horizontally */
   width: 100%;
 }
@@ -196,6 +196,7 @@ padding: 24px;
   font-size: 15px;
   width: 100%; /* Change to 100% to make it fluid */ 
   padding-right: 6px;
+  text-align: center;
 }
 
 
