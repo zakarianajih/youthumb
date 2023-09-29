@@ -103,13 +103,7 @@ input[type="text"] + button {
 }
 
 
-.text-gray-6022 {
-  text-align: center; /* Center-align text */
-  font-weight: 400; /* Set font weight (you can adjust the value) */
-  max-width: 600px; /* Set maximum width (you can adjust the value) */
-  margin: 0 auto; /* Center the paragraph horizontally */
-  width: 100%;
-}
+
 
 .title-website {
   text-align: center; /* Center-align text */
@@ -119,13 +113,65 @@ input[type="text"] + button {
   width: 100%;
 }
 
+.textbody {
+  width: 100%;
+  max-width: 760px ; /* Add max-width to make it responsive */
+  padding-left: 22px;
+  margin: 0 auto; /* Center the content */
+  padding-bottom: 33px;
+padding-top: 33px;
+}
+.heading {
+  font-size: 24px;
+  font-weight: 500;
+padding: 24px;
 
-@media screen and (max-width: 768px) {
-  .text-gray-6022 {
-    max-width: 90%; /* Adjust the maximum width for smaller screens */
-  }
+}
+.subheading {
+  font-size: 26px;
+  font-weight: 500;
+}.subheading1 {
+  font-size: 26px;
+  font-weight: 400;
+}
+.paragraph {
+  font-size: 16px;
+}
+
+/* Responsive CSS */
+@media (max-width: 992px) {
+  .textbody {
+      width: 100%; /* Change to 100% to make it fluid */
+      padding-left: 10px;
+  padding-right: 6px;
   
-  .title-website {
-    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  .heading {
+      font-size: 20px;
+  }
+}.subheading1 {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+  .subheading {
+      font-size: 19px;
+  }
+  .paragraph {
+      font-size: 15px;
+  }
+
+
+
+
+@media (max-width: 768px) {
+  .heading {
+      font-size: 18px;
+  }
+  .subheading {
+      font-size: 19px;
+  }
+  .paragraph {
+      font-size: 15px;
   }
 }
